@@ -1,0 +1,57 @@
+
+h2 {
+    font-size: 18px;
+}
+form {
+    padding: 50px;
+}
+.campos {
+    margin: 5px;
+    }
+.campos:focus {
+    transform: scale(1.2);
+}
+h1 {
+    font-size: 22px;
+    color:  #03264C;
+    text-decoration: underline overline;
+    line-height: 40px;
+}
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid #03264C;
+    background-color: #eac926;
+    border-radius: 50px;
+}
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid #03264C;
+    background-color: #eac926;
+    border-radius: 50px;
+}
+input.campos {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+input.campos[target=enviar] {
+    color: white;
+    background-color: #0044AA;
+}
+input.campos[target=enviar]:hover {
+    background-color: #0022AA;
+}
+input.campos[target=borrar] {
+    color: white;
+    background-color: #AA0044;
+}
+input.campos[target=borrar]:hover {
+    background-color: #CC1155;
+}
